@@ -1,0 +1,8 @@
+int numeros[2][2] = { {2, 4}, {6, 8} };
+int soma = 0;
+for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 2; j++) {
+        soma += numeros[i][j];
+    }
+}
+printf("%d", soma);
